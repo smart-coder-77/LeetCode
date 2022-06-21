@@ -1,7 +1,4 @@
-package kunaldsa.arrays;
-
-import java.util.HashMap;
-import java.util.Map;
+package dsa.arrays;
 
 /**
  * @author Choudhury Subham on 20-06-2022

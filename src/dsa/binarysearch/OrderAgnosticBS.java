@@ -1,4 +1,4 @@
-package kunaldsa.binarysearch;
+package dsa.binarysearch;
 
 /**
  * @author Choudhury Subham on 15-06-2022

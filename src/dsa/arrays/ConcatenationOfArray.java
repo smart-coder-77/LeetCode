@@ -1,4 +1,4 @@
-package kunaldsa.arrays;
+package dsa.arrays;
 
 import java.util.Arrays;
 

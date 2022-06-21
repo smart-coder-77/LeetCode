@@ -1,10 +1,9 @@
-package kunaldsa.arrays;
+package dsa.arrays;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  * @author Choudhury Subham on 20-06-2022

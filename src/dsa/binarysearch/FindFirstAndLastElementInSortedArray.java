@@ -1,4 +1,4 @@
-package kunaldsa.binarysearch;
+package dsa.binarysearch;
 import java.util.Arrays;
 /**
  * @author Choudhury Subham on 16-06-2022
