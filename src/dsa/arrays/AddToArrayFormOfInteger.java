@@ -12,9 +12,9 @@ import java.util.stream.Collectors;
 public class AddToArrayFormOfInteger {
 
     public static void main(String[] args) {
-        int[] num = {2,1,5};
-        int k=806;
-        System.out.println(addToArrayForms(num,k));
+        int[] num = {9};
+        int k=1;
+        System.out.println(addToArrayForm(num,k));
 
     }
 
@@ -24,7 +24,7 @@ public class AddToArrayFormOfInteger {
         for (int i : num){
              str +=i;
         }
-        Integer sum = Integer.parseInt(str)+k;
+        Integer sum = Integer.parseInt(str)+1;
         while (sum>0){
             int rem= sum%10;
             list.add(rem);
@@ -41,7 +41,6 @@ public class AddToArrayFormOfInteger {
             ans.add(0, (num[i] + k) % 10);
             k = (num[i] + k) / 10;
         }
-
         while (k > 0) {
             ans.add(0, k % 10);
             k /= 10;
