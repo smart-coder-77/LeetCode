@@ -20,8 +20,18 @@ public class FlippingAnImage {
             System.out.println(Arrays.toString(a));
         }
     }
-
     public static int[][] flipAndInvertImage(int[][] image) {
+
+
+        return image;
+    }
+
+
+
+
+
+
+    /*public static int[][] flipAndInvertImage(int[][] image) {
         for (int i=0;i<image.length;i++){
             for (int j=0;j<image[i].length;j++){
                 if (image[i][j]==image[i][image.length-j-1]){
@@ -31,5 +41,5 @@ public class FlippingAnImage {
             }
         }
         return image;
-    }
+    }*/
 }
